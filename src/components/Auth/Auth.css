@@ -1,0 +1,40 @@
+.auth-main-content {
+    width: 430px;
+    height: auto;
+    background-color: #FEFEFE;
+    border-radius: 12px;
+    padding: 48px 28px;
+}
+
+.text-auth {
+    font-family: Mulish;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+}
+
+.text-auth-btn {
+    font-family: Mulish;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+}
+.or-seperator {
+    margin-top: 30px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: #ffffff;
+    position: relative;
+    top: -13px;
+    z-index: 1;
+}  
+
+.btn-purple{
+    background-color: #6200EE !important;
+    color: #fff;
+    
+}
+
