@@ -38,3 +38,14 @@
     
 }
 
+
+.btn-outline-purple{
+    border: 1px solid #6200EE !important;
+    color: #6200EE !important;
+}
+
+.btn-outline-purple:hover{
+    background-color: #6200EE !important;
+    color: #fff !important;
+}
+

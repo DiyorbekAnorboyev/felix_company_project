@@ -1,7 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import AuthService from '../servises/auth';
 
 function Login() {
+
+    const submitUser = async (e) => {
+        e.preventDefault();
+        AuthService.userMe()
+            .then(res => console.log(res))
+            .catch(err => console.log(err))
+    }
+
     return (
         <div className='d-flex align-items-center h-100 '>
             <div className='d-flex justify-content-center w-100'>
@@ -31,7 +40,7 @@ function Login() {
                             <label className="form-label">Your password</label>
                             <input type="text" className="form-control" placeholder='Enter your password' />
                         </div>
-                        <button className='mt-4 w-100 btn btn-purple text-light'>Submit</button>
+                        <button onClick={submitUser} className='mt-4 w-100 btn btn-purple text-light'>Submit</button>
                         <div className='mt-4 text-center'>Already signed up? <Link to='/register'>Go to Sign up</Link></div>
                     </div>
                 </div>
