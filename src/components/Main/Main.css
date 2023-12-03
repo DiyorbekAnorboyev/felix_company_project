@@ -6,6 +6,82 @@
 }
 
 
-.main-content {
+.main-head-content {
     padding: 12px 100px;
+}
+
+.main-body-content {
+    top: 72px;
+    padding: 36px 100px;
+    gap: 36px;
+}
+
+.mb-text {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FEFEFE;
+}
+
+.mb-text2 {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mb-text span {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6200EE;
+}
+
+.mb-card {
+    width: 387px;
+    height: 188px;
+    left: 100px;
+    padding: 32px;
+    border-radius: 12px;
+    border: 1px;
+    gap: 16px;
+    background-color: #fff;
+}
+
+.mb-card-p {
+    padding: 16px 16px 0px 16px;
+}
+
+.mb-card-text-h {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mb-card-text-m {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+span {
+    width: 83px;
+    height: 19px;
+    padding: 2px, 12px, 2px, 12px;
+    gap: 6px;
+    background: #EFE6FD;
 }
